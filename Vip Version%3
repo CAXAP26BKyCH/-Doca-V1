@@ -1,0 +1,21 @@
+local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/CAXAP26BKyCH/-Doca-V1/refs/heads/main/Game%20List"))()
+
+        function CheckingGame1()
+        
+            getgenv().Get =
+                setmetatable(
+                {},
+                {
+                    __index = function(A, B)
+                        return game:GetService(B)
+                    end
+                }
+            )
+            
+            for i, v in pairs(Games) do
+                if i == game.PlaceId then
+                    loadstring(game:HttpGet(v))()
+                end
+            end
+        end
+        CheckingGame1()
