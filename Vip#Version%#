@@ -1,4 +1,4 @@
-local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/CAXAP26BKyCH/-Doca-V1/refs/heads/main/Game%20List"))()
+local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/CAXAP26BKyCH/-Doca-V1/refs/heads/main/Game"))()
 
         function CheckingGame1()
         
